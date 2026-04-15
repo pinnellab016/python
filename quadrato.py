@@ -1,3 +1,11 @@
+"""
+Programma che definisce una classe Quadrato e ne mostra l'uso.
+La classe gestisce il lato, il calcolo dell'area e del perimetro,
+consente di modificare il lato e verifica che il lato sia positivo.
+Nel blocco principale viene creato un quadrato, stampati i valori
+calcolati e richiesto un nuovo lato dall'utente.
+"""
+
 class Quadrato:
     def __init__(self, lato):
         """Costruttore"""
